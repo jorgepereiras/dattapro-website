@@ -26,6 +26,7 @@ module.exports = {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
+        datta: "linear-gradient(to right, #18191B, #131514, #18191B);",
       },
     },
   },
