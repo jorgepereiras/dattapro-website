@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import Logo from '../assets/datta.svg';
 
@@ -11,7 +12,13 @@ const Header = () => {
           <img src={Logo} alt='' />
         </a>
         {/* button */}
-        <button className='btn btn-sm'>Work with us</button>
+        <div className='flex items-center gap-x-6'>
+          <a href='#' className='btn-link'>Home</a>
+          <a href='#' className='btn-link'>Servicios</a>
+          <a href='#' className='btn-link'>Nuestro trabajo</a>
+          <a href='#' className='btn-link'>Acerca de</a>
+          <button className='btn btn-sm text-gray-900'>Work with us</button>
+        </div>
       </div>
     </div>
   </header>;
