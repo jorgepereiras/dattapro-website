@@ -12,12 +12,42 @@ const Header = () => {
           <img src={Logo} alt='' />
         </a>
         {/* button */}
-        <div className='flex items-center gap-x-6'>
-          <a href='#' className='btn-link'>Home</a>
-          <a href='#' className='btn-link'>Servicios</a>
-          <a href='#' className='btn-link'>Nuestro trabajo</a>
-          <a href='#' className='btn-link'>Acerca de</a>
-          <button className='btn btn-sm text-gray-900'>Work with us</button>
+        <div className='flex items-center gap-x-6 hidden lg:flex'>
+          <Link
+            to='home'
+            activeClass=''
+            smooth={true}
+            spy={true}
+            className="cursor-pointer btn-link"
+          >Home</Link>
+          <Link
+            to='services'
+            activeClass=''
+            smooth={true}
+            spy={true}
+            className="cursor-pointer btn-link"
+          >Servicios</Link>
+          <Link
+            to='services'
+            activeClass=''
+            smooth={true}
+            spy={true}
+            className="cursor-pointer btn-link"
+          >Nuestro trabajo</Link>
+          <Link
+            to='services'
+            activeClass=''
+            smooth={true}
+            spy={true}
+            className="cursor-pointer btn-link"
+          >Experiencia</Link>
+          <Link
+            to='services'
+            activeClass=''
+            smooth={true}
+            spy={true}
+            className="btn btn-sm text-gray-900 flex items-center justify-center"
+          >Work with us</Link>
         </div>
       </div>
     </div>
