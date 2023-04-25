@@ -21,7 +21,7 @@ const Header = () => {
             className="cursor-pointer btn-link"
           >Home</Link>
           <Link
-            to='services'
+            to='about'
             activeClass=''
             smooth={true}
             spy={true}
@@ -35,14 +35,14 @@ const Header = () => {
             className="cursor-pointer btn-link"
           >Nuestro trabajo</Link>
           <Link
-            to='services'
+            to='work'
             activeClass=''
             smooth={true}
             spy={true}
             className="cursor-pointer btn-link"
           >Experiencia</Link>
           <Link
-            to='services'
+            to='contact'
             activeClass=''
             smooth={true}
             spy={true}

@@ -12,13 +12,12 @@ const App = () => {
   return (
     <div className='bg-datta bg-no-repeat bg-cover overflow-hidden'>
       <Header />
-      <Banner />
       <Nav />
+      <Banner />
       <About />
       <Services />
       <Work />
       <Contact />
-      <div className='h-[4000px]'></div>
     </div>
   );
 };
